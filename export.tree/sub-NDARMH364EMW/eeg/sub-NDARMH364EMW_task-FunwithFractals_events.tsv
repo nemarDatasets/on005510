@@ -1,0 +1,8 @@
+onset	duration	sample	value	event_code
+0	n/a	0	9999	9999
+7.108	n/a	3554	video_start	82
+170.096	n/a	85048	video_stop	102
+170.684	n/a	85342	break cnt	break cnt
+203.938	n/a	101969	contrastChangeB2_start	95
+213.26	n/a	106630	contrastTrial_start	5
+215.188	n/a	107594	stim_ON	8

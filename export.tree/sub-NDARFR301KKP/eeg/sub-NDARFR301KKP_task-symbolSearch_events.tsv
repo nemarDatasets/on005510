@@ -1,0 +1,27 @@
+onset	duration	sample	value	event_code	user_answer	correct_answer
+0	n/a	0	break cnt	break cnt	n/a	n/a
+56.952	n/a	28476	symbolSearch_start	92	n/a	n/a
+62.854	n/a	31427	newPage	20	n/a	n/a
+68.646	n/a	34323	trialResponse	14	0	0
+73.09	n/a	36545	trialResponse	14	1	1
+76.992	n/a	38496	trialResponse	14	0	0
+88.992	n/a	44496	trialResponse	14	0	0
+94.64	n/a	47320	trialResponse	14	0	0
+98.062	n/a	49031	trialResponse	14	1	1
+108.88	n/a	54440	trialResponse	14	0	0
+116.666	n/a	58333	trialResponse	14	1	1
+123.97	n/a	61985	trialResponse	14	0	0
+128.706	n/a	64353	trialResponse	14	0	0
+135.874	n/a	67937	trialResponse	14	0	0
+139.072	n/a	69536	trialResponse	14	1	1
+145.194	n/a	72597	trialResponse	14	0	0
+150.058	n/a	75029	trialResponse	14	1	1
+153.4	n/a	76700	trialResponse	14	1	1
+154.714	n/a	77357	newPage	20	n/a	n/a
+161.088	n/a	80544	trialResponse	14	1	1
+165.55	n/a	82775	trialResponse	14	1	1
+176.928	n/a	88464	trialResponse	14	0	0
+182.84	n/a	91420	trialResponse	14	1	1
+208.152	n/a	104076	trialResponse	14	0	0
+208.174	n/a	104087	newPage	20	n/a	n/a
+212.201	n/a	106100.5	boundary	boundary	n/a	n/a

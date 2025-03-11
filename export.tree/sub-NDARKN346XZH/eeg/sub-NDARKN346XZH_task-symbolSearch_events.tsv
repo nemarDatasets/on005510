@@ -1,0 +1,13 @@
+onset	duration	sample	value	event_code	user_answer	correct_answer
+0	n/a	0	break cnt	break cnt	n/a	n/a
+30.954	n/a	15477	symbolSearch_start	92	n/a	n/a
+33.884	n/a	16942	newPage	20	n/a	n/a
+93.026	n/a	46513	trialResponse	14	0	0
+101.372	n/a	50686	trialResponse	14	0	1
+111.82	n/a	55910	trialResponse	14	0	0
+134.73	n/a	67365	trialResponse	14	0	0
+151.268	n/a	75634	trialResponse	14	0	0
+161.19	n/a	80595	trialResponse	14	1	1
+161.206	n/a	80603	newPage	20	n/a	n/a
+168.888	n/a	84444	break cnt	break cnt	n/a	n/a
+217.646	n/a	108823	9999	9999	n/a	n/a
