@@ -1,9 +1,5 @@
 {
   "version": "2.0",
-  "dataset_id": "on005510",
-  "source": "openneuro",
-  "source_id": "ds005510",
-  "title": "Healthy Brain Network (HBN) EEG - Release 6",
   "authors": {
     "Seyed Yahya Shirazi": {},
     "Alexandre Franco": {},
@@ -14,8 +10,6 @@
     "Michael Milham": {},
     "Scott Makeig": {}
   },
-  "license": "CC-BY-SA 4.0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005510.v1.0.1",
@@ -23,5 +17,13 @@
       "relation_type": "IsIdenticalTo"
     }
   ],
-  "pipeline_stage": "seeded"
+  "sizes": [
+    "5.0 MB (4949 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ]
 }
