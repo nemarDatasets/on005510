@@ -6,6 +6,22 @@
   "methods_description": "EEG data were collected during six task conditions: three passive tasks (resting state with eyes open/closed, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection, sequence learning, and symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data quality control was performed to ensure data integrity, task event completeness, and preprocessing readiness.",
   "license": "CC-BY-SA 4.0",
   "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "5.0 MB (4956 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166",
   "authors": {
     "Seyed Yahya Shirazi": {
       "orcid": "0000-0001-5557-259X"
@@ -132,21 +148,5 @@
     {
       "funder_name": "Child Mind Institute"
     }
-  ],
-  "resource_type_general": "Dataset",
-  "resource_type_specific": "EEG Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "sizes": [
-    "5.0 MB (4956 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166"
+  ]
 }
