@@ -1,36 +1,34 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Healthy Brain Network (HBN) EEG - Release 6",
-  "description": "The Healthy Brain Network (HBN) EEG Release 6 dataset comprises high-resolution electroencephalogram recordings from 134 children and adolescents (ages 5-21 years) performing six distinct cognitive and perceptual tasks, including resting state, passive viewing tasks (surround suppression, movie watching), and active tasks (contrast change detection, sequence learning, symbol search). The dataset includes behavioral responses, hierarchical event descriptors for systematic meta-analysis, and psychopathology measures derived from the Child Behavior Checklist, providing a rich resource for investigating neural correlates of typical and atypical development.",
-  "methods_description": "EEG data were collected during six task conditions: three passive tasks (resting state with eyes open/closed, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection, sequence learning, and symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data were curated into BIDS format with HED (Hierarchical Event Descriptors) version 8.3.0 annotations for standardized event labeling.",
+  "description": "The Healthy Brain Network (HBN) EEG Release 6 dataset comprises high-resolution electroencephalogram recordings from 134 children and adolescents (ages 5-21 years) performing six distinct cognitive and perceptual tasks, including resting state, passive viewing tasks (surround suppression, movie watching), and active tasks (contrast change detection, sequence learning, symbol search). The dataset includes behavioral responses, hierarchical event descriptors for systematic meta-analysis, and psychopathology measures (P-Factor, Attention, Internalization, Externalization) derived from the Child Behavior Checklist, providing a rich resource for investigating neural correlates of typical and atypical development. This release is part of a larger HBN initiative involving >3000 participants.",
+  "methods_description": "EEG data were collected during six task conditions: three passive tasks (resting state with eyes open/closed, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection, sequence learning, and symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data quality control was performed to ensure data integrity, task event completeness, and preprocessing readiness.",
   "license": "CC-BY-SA 4.0",
   "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "resource_type_specific": "EEG Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "sizes": [
-    "5.0 MB (4956 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166",
   "authors": {
-    "Seyed Yahya Shirazi": {},
-    "Alexandre Franco": {},
-    "Maurício Scopel Hoffmann": {},
-    "Nathalia B. Esper": {},
-    "Dung Truong": {},
-    "Arnaud Delorme": {},
+    "Seyed Yahya Shirazi": {
+      "orcid": "0000-0001-5557-259X"
+    },
+    "Alexandre Franco": {
+      "orcid": "0000-0002-1552-1090"
+    },
+    "Maurício Scopel Hoffmann": {
+      "orcid": "0000-0003-4232-3169"
+    },
+    "Nathalia B. Esper": {
+      "orcid": "0000-0003-3218-9226"
+    },
+    "Dung Truong": {
+      "orcid": "0000-0003-4540-3551"
+    },
+    "Arnaud Delorme": {
+      "orcid": "0000-0002-0799-3557"
+    },
     "Michael Milham": {},
-    "Scott Makeig": {}
+    "Scott Makeig": {
+      "orcid": "0000-0002-9048-8438"
+    }
   },
   "keywords": [
     {
@@ -40,19 +38,49 @@
       "term": "child development"
     },
     {
+      "term": "adolescent neuroscience"
+    },
+    {
       "term": "cognitive tasks"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "psychopathology"
+      "term": "event-related potentials"
     },
     {
       "term": "BIDS"
     },
     {
-      "term": "neuroimaging"
+      "term": "hierarchical event descriptors"
+    },
+    {
+      "term": "HED"
+    },
+    {
+      "term": "Healthy Brain Network"
+    },
+    {
+      "term": "psychopathology"
+    },
+    {
+      "term": "CBCL"
+    },
+    {
+      "term": "neurodevelopment"
+    },
+    {
+      "term": "behavioral responses"
+    },
+    {
+      "term": "contrast change detection"
+    },
+    {
+      "term": "sequence learning"
+    },
+    {
+      "term": "symbol search"
     }
   ],
   "related_identifiers": [
@@ -85,6 +113,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005510",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on005510",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
   "funding_references": [
@@ -95,6 +128,25 @@
       "funder_name": "NIH",
       "award_number": "R01MH125934",
       "award_title": "BIDS data preparation"
+    },
+    {
+      "funder_name": "Child Mind Institute"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "5.0 MB (4956 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166"
 }
