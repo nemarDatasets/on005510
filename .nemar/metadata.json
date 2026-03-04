@@ -1,5 +1,14 @@
 {
   "version": "2.0",
+  "sizes": [
+    "5.0 MB (4950 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
   "authors": {
     "Seyed Yahya Shirazi": {},
     "Alexandre Franco": {},
@@ -16,14 +25,5 @@
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
     }
-  ],
-  "sizes": [
-    "5.0 MB (4949 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
   ]
 }
