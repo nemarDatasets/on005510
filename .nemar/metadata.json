@@ -3,25 +3,9 @@
   "pipeline_stage": "validated",
   "title": "Healthy Brain Network (HBN) EEG - Release 6",
   "description": "The Healthy Brain Network (HBN) EEG Release 6 dataset comprises high-resolution electroencephalogram recordings from 134 children and adolescents (ages 5-21 years) performing six distinct cognitive and perceptual tasks, including resting state, passive viewing tasks (surround suppression, movie watching), and active tasks (contrast change detection, sequence learning, symbol search). The dataset includes behavioral responses, hierarchical event descriptors for systematic meta-analysis, and psychopathology measures derived from the Child Behavior Checklist, providing a rich resource for investigating neural correlates of typical and atypical development.",
-  "methods_description": "EEG data were collected during six task conditions: three passive tasks (resting state with eyes open/closed, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection, sequence learning, and symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data were curated into BIDS format with HED (Hierarchical Event Descriptors) version 8.3.0 annotations for standardized event documentation.",
+  "methods_description": "EEG data were collected during six task conditions: three passive tasks (resting state with eyes open/closed, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection, sequence learning, and symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data were curated into BIDS format with HED (Hierarchical Event Descriptors) version 8.3.0 annotations for standardized event labeling.",
   "license": "CC-BY-SA 4.0",
   "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "resource_type_specific": "EEG Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "sizes": [
-    "5.0 MB (4956 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166",
   "authors": {
     "Seyed Yahya Shirazi": {},
     "Alexandre Franco": {},
@@ -49,7 +33,7 @@
       "term": "psychopathology"
     },
     {
-      "term": "adolescent"
+      "term": "BIDS"
     },
     {
       "term": "neuroimaging"
@@ -96,5 +80,21 @@
       "award_number": "R01MH125934",
       "award_title": "BIDS data preparation"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "5.0 MB (4956 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "7f3c41b498110f6c7473ff8ca5bff26dbf6268fd0ec233398797e4624cc80166"
 }
